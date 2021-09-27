@@ -1,0 +1,60 @@
+main {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    padding: 0 40px;
+    background-color: salmon;
+}
+
+article {
+    border: 1px solid red;
+    position: relative;
+    width: 75%;
+    background-color: #fff;
+}
+
+aside {
+    position: relative;
+    background-color: #fff;
+}
+
+article h1 {
+    font-size: 34px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 50px auto 20px;
+}
+
+main ul {
+    list-style: none;
+}
+
+main article ul {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid green;
+    padding: 0;
+}
+
+main article ul li i {
+    margin: 5px;
+    font-size: 30px;
+    border: 1px solid red;
+    border-radius: 12px;
+}
+
+.fa-facebook-square {
+    color: #4267B2;
+}
+
+.fa-twitter-square {
+    color: #1DA1F2;
+}
+
+.fa-flipboard {
+    color: red;
+}
+
+.fa-envelope {
+    color: rgba(0, 124, 0, 0.692);
+}
