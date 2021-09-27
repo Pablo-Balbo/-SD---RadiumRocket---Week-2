@@ -1,28 +1,238 @@
-header {
-    border: 1px solid blue;
-}
-
-/* ----------------------------Top Links----------------------------- */
-
 .topLinks {
-    border: 1px solid orange;
     background-color: black;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .topLinks ul {
-    border: 1px solid green;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 
 .topLinks ul li {
-    padding: 3px;
+    padding: 5px 7px;
+    margin: 0;
 }
 
-/* ------------------------------Logo--------------------------- */
+.topLinks a {
+    text-decoration: none;
+    color: #777;
+    font-size: 12px;
+}
 
+.topLinks a:hover {
+    color: #fff;
+}
+
+.topLinks #webedia {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    border-left: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.topLinks #webedia:hover {
+    color: #a8a8a8;
+}
+
+.topLinks #xatakaIcon {
+    color: #e2e2e2;
+}
+
+.topLinks #xatakaIconLi {
+    background-color: #72DA38;
+}
+
+.topLinks #vx:hover {
+    background-color: #1680c6;
+}
+
+.topLinks #of:hover {
+    background-color: #218C79;
+}
+
+.topLinks #g:hover {
+    background-color: #00407F;
+}
+
+.topLinks #utensils:hover {
+    background-color: #8F0013;
+}
+
+.topLinks #vial:hover {
+    background-color: #53a7a7;
+}
+
+.topLinks #shoppingBag:hover {
+    background-color: #333;
+}
+
+.topLinks #apple:hover {
+    background-color: #2F296F;
+}
+
+.topLinks #mobile:hover {
+    background-color: #2D641D;
+}
+
+.topLinks #d:hover {
+    background-color: #45B0DF;
+}
+
+.topLinks #running:hover {
+    background-color: #2068AF;
+}
+
+.topLinks #camera:hover {
+    background-color: #333;
+}
+
+.topLinks #glasses:hover {
+    background-color: #1F4478;
+}
+
+.topLinks #android:hover {
+    background-color: #a4c739;
+}
+
+.topLinks #satellite:hover {
+    background-color: #2F5083;
+}
+
+.topLinks #windows:hover {
+    background-color: #0F6D39;
+}
+
+.topLinks #magnet:hover {
+    background-color: #67ACD7;
+}
+
+.topLinks #c:hover {
+    background-color: #4A9E72;
+}
+
+.topLinks #rainbow:hover {
+    background-color: #ed4902;
+}
+
+.topLinks #compass:hover {
+    background-color: #f6ce1e;
+}
+
+.topLinks #circle:hover {
+    background-color: #d3222a;
+}
+
+.topLinks #candy:hover {
+    background-color: #FF3A92;
+}
+
+.topLinks #globeAmericas:hover {
+    background-color: #FF6900;
+}
+
+.topLinks #rainbow2:hover {
+    background-color: #7059FF;
+}
+
+.topLinks #square:hover {
+    background-color: #FF8100;
+}
+
+.headerContainer {
+    background-color: #161D25;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+.headerContainer i {
+    color: #72DA38;
+}
+
+.top {
+    display: block;
+    background-color: #212A34;
+    background-image: linear-gradient(to bottom, #212A34, #161D25);
+}
+
+.top ul {
+    padding: 0;
+    margin: 0 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.top ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    position: relative;
+    margin: 0 auto -20px;
+    width: 300px;
+    height: 100px;
+}
+
+.logo svg {
+    transform: scale(80%);
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 30px;
+    border-top: 1px solid #535B63;
+    background-color: #161D25;
+}
+
+.bottom nav {
+    display: flex;
+    align-items: center;
+}
+
+.bottom nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 12px 0;
+}
+
+.bottom nav ul li.navBar {
+    margin: 0 8px;
+}
+
+.bottom nav ul li.navBar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bottom nav ul li.navBar a:hover {
+    text-decoration: underline;
+}
+
+.bottom div {
+    display: flex;
+    align-items: center;
+}
+
+.bottom div ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: relative;
+    margin: 0;
+}
+
+.bottom div ul li.socialMedia {
+    margin: 7px 6px;
+    font-size: 15px;
+}
