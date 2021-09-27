@@ -1,0 +1,28 @@
+header {
+    border: 1px solid blue;
+}
+
+/* ----------------------------Top Links----------------------------- */
+
+.topLinks {
+    border: 1px solid orange;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.topLinks ul {
+    border: 1px solid green;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.topLinks ul li {
+    padding: 3px;
+}
+
+/* ------------------------------Logo--------------------------- */
+
