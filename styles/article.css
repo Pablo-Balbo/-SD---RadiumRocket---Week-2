@@ -1,13 +1,11 @@
 main {
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
-    padding: 0 40px;
+    padding: 0 25px;
     background-color: salmon;
 }
 
 article {
-    border: 1px solid red;
     position: relative;
     width: 75%;
     background-color: #fff;
@@ -16,6 +14,38 @@ article {
 aside {
     position: relative;
     background-color: #fff;
+    width: 30%;
+    margin-top: 250px;
+}
+
+aside .topAside {
+    display: block;
+    border-top: 1px solid #ccc;
+    padding: 16px 0 25px;
+    margin: 0 auto;
+}
+
+aside .topAside .title {
+    display: block;
+    margin-bottom: 15px;
+}
+
+aside .topAside .title img {
+    width: 20px;
+    margin-right: 16px;
+}
+
+aside .topAside .title span {
+    color: #777;
+    font-size: small;
+}
+
+aside .topAside .content {
+    line-height: 1;
+}
+
+aside .topAside ul li a {
+    text-decoration: none;
 }
 
 article h1 {
@@ -32,14 +62,12 @@ main ul {
 main article ul {
     display: flex;
     flex-direction: row;
-    border: 1px solid green;
     padding: 0;
 }
 
 main article ul li i {
     margin: 5px;
     font-size: 30px;
-    border: 1px solid red;
     border-radius: 12px;
 }
 
@@ -57,4 +85,13 @@ main article ul li i {
 
 .fa-envelope {
     color: rgba(0, 124, 0, 0.692);
+}
+
+main article figure {
+    margin: 0;
+}
+
+main article figure img,
+main article video {
+    width: 100%;
 }
