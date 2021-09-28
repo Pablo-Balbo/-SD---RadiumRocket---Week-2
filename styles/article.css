@@ -44,6 +44,11 @@ aside .topAside .content {
     line-height: 1;
 }
 
+aside .topAside ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 aside .topAside ul li a {
     text-decoration: none;
 }
