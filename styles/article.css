@@ -2,7 +2,6 @@ main {
     display: flex;
     flex-direction: row;
     padding: 0 25px;
-    background-color: salmon;
 }
 
 article {
@@ -15,6 +14,8 @@ article h1 {
     font-size: 34px;
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     font-weight: 400;
+    color: #111;
+    line-height: 50px;
     margin: 50px auto 20px;
 }
 
