@@ -136,3 +136,68 @@ aside .bottomAside {
     border: 1px solid #e9e9e9;
     width: 170px;
 }
+
+.social {
+    margin-top: 50px;
+}
+
+.social span {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.social ul {
+    display: inline-flex;
+    margin: 16px 0;
+}
+
+.social ul li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 6px;
+}
+
+.social ul li i {
+    width: 32px;
+    height: 32px;
+    transform: scale(1.5);
+}
+
+.social .fa-twitter {
+    color: #00abf1;
+}
+
+.social .fa-facebook-f {
+    color: #4267b2;
+}
+
+.social .fa-youtube {
+    color: #cc181e;
+}
+
+.social .fa-instagram {
+    color: #125688;
+}
+
+.social .fa-telegram {
+    color: #2e87ca;
+}
+
+.social .fa-rss {
+    color: #f60;
+}
+
+.social .fa-flipboard {
+    color: #e02828;
+}
+
+.social .fa-linkedin {
+    color: #0077B5;
+}
+
+.social .fa-tiktok {
+    color: #000000;
+}
