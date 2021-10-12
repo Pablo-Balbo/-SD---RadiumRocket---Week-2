@@ -4,10 +4,10 @@
 
 This is the report from the Radium Rocket Software Developer course corresponding to week 2.
 
-Like last week, this week a newspaper story was copied from a digital dario.
-To do this, html was used to make the structure of the page, while for the design we used css language.
-At the end of the page, a button that is not found in any of the original news will be included, whose function will be to exchange between the page of week 1 and the one corresponding to week 2.
-Being such extensive news, it took longer than desired to finalize their styles, so I will continue to work on them as the days go by.
+Like last week, this week a newspaper story was copied from a digital dario.  
+To do this, html was used to make the structure of the page, while for the design we used css language.  
+At the end of the page, a button that is not found in any of the original news will be included, whose function will be to exchange between the page of week 1 and the one corresponding to week 2.  
+Being such extensive news, it took longer than desired to finalize their styles, so I will continue to work on them as the days go by.  
 
 ---
 
